@@ -1,25 +1,25 @@
 <template>
   <v-bottom-navigation v-model="value" mode="shift">
     <v-btn @click="$router.push('/')">
-      <v-icon>mdi-television-play</v-icon>
+      <v-icon>mdi-home-outline</v-icon>
 
-      <span>Home</span>
+      <span>Scholarships</span>
     </v-btn>
 
     <v-btn @click="$router.push('/mentors')">
-      <v-icon>mdi-music-note</v-icon>
+      <v-icon>mdi-account-multiple-outline</v-icon>
 
       <span>Mentors</span>
     </v-btn>
 
     <v-btn @click="$router.push('/resources')">
-      <v-icon>mdi-book</v-icon>
+      <v-icon>mdi-play-box-multiple-outline</v-icon>
 
-      <span>Resources</span>
+      <span>Workshops</span>
     </v-btn>
 
     <v-btn @click="$router.push('/profile')">
-      <v-icon>mdi-image</v-icon>
+      <v-icon>mdi-account-outline</v-icon>
 
       <span>Profile</span>
     </v-btn>
